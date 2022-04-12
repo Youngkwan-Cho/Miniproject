@@ -10,7 +10,7 @@ int selectProduct(){
 }
 
 int main(void){
-	int n=40;
+	int n=50;
     product sp[n];
     int count = 0, a;
     int index=0;
