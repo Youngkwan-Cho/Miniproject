@@ -68,13 +68,13 @@ int main(void){
             saveData(sp, index);
         }
         else if (a==6) {
-            searchProductName(sp, count);
+            searchProductName(sp, index);
         }
         else if (a==7) {
-            searchProductPrice(sp, count);
+            searchProductPrice(sp, index);
         }
         else if (a==8) {
-            searchProductShipping(sp, count);
+            searchProductShipping(sp, index);
         }
     }
     printf("종료됨!\n");
