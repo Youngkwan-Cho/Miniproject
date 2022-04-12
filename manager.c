@@ -37,7 +37,8 @@ void saveData(product *s, int count) {
 }
 
 int loadData(product *s, int number) {
-    int count=0, i=0;
+    int count=0;
+    int  i=0;
     FILE *fp;
     fp=fopen("product.txt", "rt");
     printf("=> 데이터 가져오는 중...\n");
