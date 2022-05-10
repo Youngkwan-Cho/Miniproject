@@ -1,6 +1,6 @@
 #include "product.h"
 #include "manager.h"
-
+       
 int selectProduct(){
     int Product;
     printf("\n****** 제품 판매 ******\n1. 제품 조회\n2. 제품 추가\n3. 제품 수정\n4. 제품 삭제\n5. 제품 저장\n6. 제품이름 검색\n7. 제품가격 검색\n8. 제품 배송방법 검색\n0. 종료\n");
